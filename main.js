@@ -6,7 +6,6 @@ if (videoId) {
 let callbackUrl = urlParams.get('callbackUrl');
 if (callbackUrl) {
     callbackUrl+=`?videoId=${videoId}&status=played`;
-    document.getElementById('debug').innerText = `Callback URL: ${callbackUrl}`;
     
     const img = new Image();
     img.src = callbackUrl;
