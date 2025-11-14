@@ -1,0 +1,12 @@
+body{
+    background-color: #0f0f0f;
+    color: #ffffff;
+    margin:0px;
+    padding:20px;
+}
+
+.video-iframe {
+    border: none;
+    width: 100%;
+    height: calc(100vh - 100px);
+}
